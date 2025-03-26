@@ -1,0 +1,29 @@
+# Node modules (installed dependencies)
+node_modules/
+
+# Parcel cache (improves build speed but shouldn't be committed)
+.parcel-cache/
+
+# Build output (typically "dist" or "build")
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Editor/IDE-specific files
+.vscode/
+.idea/
+.DS_Store
+
+# OS-specific files
+Thumbs.db
