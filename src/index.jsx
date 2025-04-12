@@ -5,7 +5,7 @@ import {Body }from "./components/Body";
 import {AboutUs} from "./components/aboutUs";
 import { Error } from "./components/Error";
 import { createBrowserRouter,RouterProvider ,Outlet} from "react-router-dom";
-import { ResturantMenu } from "./components/Resturantmenu";
+import { RestaurantMenu } from "./components/ResInfo";
 
 
 function AppLayout(){
@@ -34,7 +34,7 @@ const appRouter=createBrowserRouter([
     },
     {
         path:"/resturant/:resid",
-        element:<ResturantMenu/>
+        element:<RestaurantMenu/>
     }
     
 ]) 
